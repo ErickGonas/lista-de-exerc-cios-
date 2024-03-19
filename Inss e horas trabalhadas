@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class Exercicios_4 {
+    public static void main (String[] args){
+        double salario,valordahora,horastrabalhadas,descontoinss;
+     Scanner ler= new
+            Scanner(System.in);
+     
+    System.out.println("Informe seu salario: ");
+        salario=ler.nextDouble();
+        
+    System.out.println("informe o valor das horas trabalhadas: ");
+        valordahora= ler.nextDouble();
+    
+    System.out.println("informe a quantidade de horas trabalhadas: ");
+        horastrabalhadas= ler.nextDouble();
+    
+    System.out.println("Infome quantos porcentos% e o desconto do inss");
+    descontoinss= 
+        
+     System.out.println("c= "+c);
+    
+           
+    }
+    
+
+            
+    
+}
