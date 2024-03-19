@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class Exercicios_4 {
+    public static void main (String[] args){
+        double preçoGasolina,preçoEtanol;
+     Scanner ler= new
+            Scanner(System.in);
+     
+     System.out.println("Informe o preço da gasolina: ");
+        preçoGasolina= ler.nextDouble();
+        
+     System.out.println("Informe o preço do etanol: ");
+        preçoEtanol= ler.nextDouble();
+        if(preçoEtanol< preçoGasolina*0.7){
+            System.out.println("Vale a pena abastecer o etanol.");
+        } else {
+            System.out.println("vale a pena abastecer com gasolina.");
+        }
+        
+                 
+           
+    }
